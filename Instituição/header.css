@@ -1,0 +1,50 @@
+.logo
+{
+    width: 200px;
+    padding: 15px;
+}
+
+.buttonsH
+{
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 50px 0px;
+    font-family: NexaFont;
+    font-weight: bold;
+}
+
+.help 
+{
+    padding: 45px;
+}
+
+.helpB
+{
+    padding: 10px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    color: #0096B6;
+    font-family: NexaFont;
+    font-weight: bold;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    background: linear-gradient(#078fad, #0096B6 90%,  #01758f);
+    color: white;
+}
+
+
+header .hamburguer
+{
+    display: none;
+}
+

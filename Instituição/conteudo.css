@@ -1,0 +1,247 @@
+
+.QuemSomos
+{
+    height: 65vh;
+}
+
+.QuemSomos h1
+{
+    text-align: center;
+    color: #0096B6;
+    font-size: 60px;
+}
+
+.MVV
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #0096B6;
+    height: 60vh;
+
+    
+}
+
+.Missão
+{
+    background-color: #0096B6;
+    padding: 100px 30px;
+    font-family: CocoGothicFont;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Visão
+{
+    background-color: #1db4d6;
+    padding: 100px 30px;
+    font-family: CocoGothicFont;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Valor
+{
+    background-color: #093c47;
+    padding: 100px 30px;
+    font-family: CocoGothicFont;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.Missão h3, .Visão h3, .Valor h3
+{
+    padding: 15px;
+    font-size: 30px;
+    font-family: NexaFont;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.Membros
+{
+    height: 130vh;
+}
+
+.Membros h1
+{
+    text-align: center;
+    color: #0096B6;
+    font-family: NexaFont;
+}
+
+.objetivo{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: NexaFont;
+    color: #072d35;
+    margin-top: 30px;
+}
+
+.comprometidos{
+    text-align: center;
+    font-size: 30px;
+    font-family: CocoGothicFont;
+    color: #093c47;
+    padding-bottom: 15px;
+}
+
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+    scroll-snap-align: center;
+    justify-content: center;
+    padding: 0 15px; /* Adiciona padding */
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    justify-content: center;
+    scroll-snap-align: center;
+}
+
+
+.cardparticipantes {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    scroll-snap-align: center;
+}
+
+
+
+
+.card {
+    min-width: 200px;
+    width: 400px;
+    flex: 0 0 auto;
+    background-color: rgb(43, 80, 119);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+    scroll-snap-align: center;
+    opacity: 0.5; /* Define a opacidade padrão dos cards */
+    left: calc(47% - 20px);
+transform: translate(-50%, 0); 
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card .nome {
+    font-family: CocoGothicFont;
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+    transition: color 0.3s;
+    color: #dbf8ff;
+}
+
+.card h3 {
+    color: rgb(255, 255, 255);
+    margin: 0 0 10px;
+    font-family: CocoGothicFont;
+}
+
+.card p {
+    color: #ffffff;
+    font-family: CocoGothicFont;
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #093c47;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.empoderar{
+    text-align: center;
+    color: #072d35;
+    font-family: CocoGothicFont;
+    padding-left: 19%;
+    padding-right: 19%;
+    padding-top: 18px;
+    padding-bottom: 5%;
+}
+
+.trajetoria{
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.trajetoriatitle{
+padding-top: 80px;
+    color: #072d35;
+    text-align: center;
+    font-size: 40px;
+    font-family: NexaFont;
+}
+
+.timeline
+{
+    background-size: cover;
+    background-position: center;
+    height: 73vh;
+    display: block;
+}
+
+.celular{
+    display: none;
+}
+
+.numeroo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #072d35;
+    display: inline;
+    
+}
+
+.trajetoriaazul{
+    display: flex;
+    padding-top: 70px;
+}
+
+.timeline1{
+    padding-right: 60px;
+}
+
+.overlay{
+    display: none;
+}
