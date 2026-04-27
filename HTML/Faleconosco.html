@@ -1,184 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rede Liga do Bem</title>
-    <link rel="stylesheet" href="../CSS/Faleconosco/global.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rede Liga do Bem | Fale Conosco</title>
+  <meta name="description" content="Entre em contato com a Rede Liga do Bem por formulário, WhatsApp, e-mail ou redes sociais.">
+  <link rel="stylesheet" href="../CSS/site.css">
+  <script src="../JS/main.js" defer></script>
 </head>
 <body>
-
-    <header>
-        <div class="logo">
-            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="90px" width="175px"></a>
-        </div>
-
-        <div class="buttonsH">
-            <a href="../index.html">INICIO</a>
-            <a href="./Instituição.html">INSTITUIÇÃO</a>
-            <a href="./Atividades.html">ATIVIDADES</a>
-            <a href="./doações.html">DOAÇÕES</a>
-        </div>
-
-        <div class="help">
-            <a href="./Faleconosco.html" class="helpB">AJUDE-NOS</a>
-        </div>
-
-         <!-- BOTÃO HAMBURGUER PARA O MOBILE -->
-         <div class="hamburguer" onclick="toggleMenu()">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-
-        <!-- Botões do menu hamburguer -->
-        <div class="overlay" id="overlay">
-            <div class="closeButton" id="hamburguer" onclick="fechar()">
-                <div class="bar1" id="bar1"></div>
-                <div class="bar3" id="bar3"></div>
-            </div>
-            <div class="overlayButtons">
-            <a href="../index.html">INICIO</a>
-            <a href="./Instituição.html">INSTITUIÇÃO</a>
-            <a href="./Atividades.html">ATIVIDADES</a>
-            <a href="./doações.html">DOAÇÕES</a>
-            <a href="./Faleconosco.html">AJUDE-NOS</a>
-        </div>
-        </div>
-
-    </header>
-<hr>
-
-<main id="menzinho">
-
-    <section class="titulo">
-        <h1>Fale conosco!</h1>
-        <p>Deseja entrar em contato a Rede Liga do Bem? <br> 
-           Envie sua mensagem!</p>
-     </section>
-
-    <section class="formulario">
-        <section class="contato">
-            <div class="silvana">
-                <h5>Silvana Melo</h5>
-                <p>Secretaria</p>
-                    <div class="icone">
-                        <img src="../Imagens/mail.png" alt="">
-                        <p class="email">contatoredeligadobem@gmail.com</p>
-                    </div>
-                    <div class="icone">
-                        <img src="../Imagens/instagram.png" alt="">
-                        <p class="instagram">@redeligadobem</p>
-                    </div>
-                    <div class="icone">
-                        <img src="../Imagens/whatsapp.png" alt="">
-                        <p class="email">11 98048-5370</p>
-                    </div>
-            </div>
-        </section>
-
-        <form id="Formulario" class="forms" onsubmit="enviarEmail(event)">
-            <div class="inputs">
-                <img src="../Imagens/user1.png" alt="">
-                <input type="text" id="inputNome" required>
-                <label for="inputNome" class="label-input">Nome</label>
-            </div>
-            <div class="inputs">
-                <img src="../Imagens/mail.png" alt="">
-                <input type="text" id="inputEmail" required>
-                <label for="inputEmail" class="label-input">Email</label>
-            </div>
-            <div class="inputs">
-                <img src="../Imagens/telefone.png" alt="">
-                <input type="text" id="inputTel" required>
-                <label for="inputTel" class="label-input">Assunto</label>
-            </div>
-            <div class="inputs">
-                <textarea name="message" id="inputTxt" cols="100" rows="10" placeholder="Digite sua mensagem..."required></textarea>
-            </div>
-            <button type="submit">Enviar</button>
-        </form>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header"><div class="container header-content"><a class="brand" href="../index.html"><img src="../Imagens/LogoColorida.png" alt="Logo da Rede Liga do Bem"></a><nav class="desktop-nav" aria-label="Menu principal"><a href="../index.html">Início</a><a href="./Instituição.html">Instituição</a><a href="./Atividades.html">Atividades</a><a href="./doações.html">Doações</a></nav><a class="btn btn-primary header-cta" href="./Faleconosco.html">Ajude-nos</a><button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-mobile"><span></span><span></span><span></span></button></div><div class="mobile-menu" id="menu-mobile" aria-hidden="true"><div class="mobile-menu-panel"><button class="close-menu-button" type="button" aria-label="Fechar menu">×</button><nav aria-label="Menu mobile"><a href="../index.html">Início</a><a href="./Instituição.html">Instituição</a><a href="./Atividades.html">Atividades</a><a href="./doações.html">Doações</a><a href="./Faleconosco.html">Fale Conosco</a></nav></div></div></header>
+  <main id="conteudo">
+    <section class="section container contact-hero">
+      <div><p class="eyebrow">Contato</p><h1>Fale Conosco</h1><p>Envie uma mensagem para tirar dúvidas, apoiar, doar, visitar ou conhecer melhor o trabalho da Rede Liga do Bem.</p><div class="contact-list"><a href="mailto:contatoredeligadobem@gmail.com">contatoredeligadobem@gmail.com</a><a href="tel:+5511980485370">+55 11 98048-5370</a><a href="https://www.instagram.com/redeligadobem" target="_blank" rel="noopener noreferrer">@redeligadobem</a></div></div>
+      <form class="contact-form" id="contact-form"><div class="form-field"><label for="nome">Nome</label><input id="nome" name="nome" type="text" autocomplete="name" required></div><div class="form-field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required></div><div class="form-field"><label for="telefone">Telefone</label><input id="telefone" name="telefone" type="tel" autocomplete="tel"></div><div class="form-field"><label for="assunto">Assunto</label><input id="assunto" name="assunto" type="text" required></div><div class="form-field"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="6" required></textarea></div><button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button><p class="form-feedback" aria-live="polite"></p></form>
     </section>
-</main>
-    <hr>
-  
-    <footer>
-        <div class="LogoSpaceF">
-            <a href="../index.html"><img src="../Imagens/LogoVBranca.png" class="Logof"></a>
-        </div>
-        <div class="textF" id="None">
-            <p>A instituição Rede Liga do Bem surgiu através da vontade de criar um espaço seguro, solidário 
-                e sem fins lucrativos. Visando uma vivência e futuro mais ricos para crianças e adultos.</p>
-        </div>
-        <div class="buttonsF">
-        <div class="buttonsF">
-            <div class="fdiv">
-                <p class="titleF"><a href="./Instituição.html">Instituição</a></p><br>
-                <p class="othersF">Sobre</p> 
-                <p class="othersF">MVV</p>
-                <p class="othersF">Membros</p>
-            </div>
-            <div class="fdiv">
-                <p class="titleF"><a href="./Atividades.html">Atividades</a></p><br>
-                <p class="othersF">Como funciona</p>
-                <p class="othersF">Horários</p>
-                <p class="othersF">Atividades</p>
-            </div>
-    
-            <div class="fdiv">
-                <p class="titleF"><a href="./doações.html">Doações</a></p><br>
-                <p class="othersF">Como funciona</p>
-                <p class="othersF">Formas</p>
-                <p class="othersF">Para que fins</p>
-            </div>
-    
-            <div class="fdiv" id="None">
-                <p class="titleF">Contato</p><br>
-                <p class="numero">+55 11 98048-5370</p>
-                <p class="contato">contatoredeligado<br>bem@gmail.com</a></p>
-            </div>
-    
-            <div class="fdiv">
-                <p class="titleF">Ajude-nos</p><br>
-                <p class="othersF">Como funciona</p>
-                <p class="othersF">Torne-se um apoiador</p>
-            </div>
-    
-            <div class="fdiv" >
-                <p class="titleF" id="None">Redes sociais</p>
-                
-            <ul class="u">
-             <a href="https://www.instagram.com/redeligadobem?igsh=MXdjbzh2Ng==qYndzZ2t">
-                <li class="l">
-                       <span class="icone"><i class="bi bi-instagram"></i></span>
-                       <span class="texto">redeligadobem</span>
-                </li>
-             </a>
-             <a href="https://wa.me/5511980485370" id="Zap">
-                <li class="l">
-                    <span class="icone"><i class="bi bi-whatsapp"></i></span>
-                    <span class="texto">silvana</span>
-                </li>
-            </a>
-            </ul>
-            </div>
-        </div>
-        </div>
-        <div class="copyrightF">
-            <p class="copy">Copyright © - Rede Liga do Bem</p>
-        </div>
-    </footer>
-
-
-    <script src="../JS/Faleconosco.js"></script>
-    <script src="../JS/HeaderResponsivo.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("KHrL_3iI0YxlK0NFH");
-        })();
-    </script>
-   
+    <section class="section section-muted"><div class="container location-section"><div><p class="eyebrow">Localização</p><h2>Venha nos visitar</h2><p>Rua Abril Peres, 35, Jardim das Rosas, São Paulo - SP.</p><a class="btn btn-secondary" href="https://maps.app.goo.gl/ki5ToanfVXdyoVK6A" target="_blank" rel="noopener noreferrer">Abrir localização</a></div><div class="map-container"><iframe title="Mapa com localização da Rede Liga do Bem" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.4710035780486!2d-46.79554512378554!3d-23.65910856519232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53733dc6fa9f%3A0x3237b9a6fccc693e!2sR.%20Abril%20Peres%2C%2035%20-%20Jardim%20das%20Rosas%20(Zona%20Sul)%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005893-010!5e0!3m2!1sen!2sbr!4v1718642936352!5m2!1sen!2sbr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div class="footer-about"><a href="../index.html"><img src="../Imagens/LogoVRGB.png" alt="Logo da Rede Liga do Bem"></a><p>A Rede Liga do Bem cria um espaço seguro, solidário e sem fins lucrativos para crianças, jovens e famílias.</p></div><nav class="footer-links" aria-label="Links úteis"><div><h2>Instituição</h2><a href="./Instituição.html#sobre">Sobre</a><a href="./Instituição.html#mvv">Missão, visão e valores</a><a href="./Instituição.html#membros">Membros</a></div><div><h2>Atividades</h2><a href="./Atividades.html#como-funciona">Como funciona</a><a href="./Atividades.html#horarios">Horários</a><a href="./Atividades.html#atividades">Modalidades</a></div><div><h2>Doações</h2><a href="./doações.html#como-funciona">Como funciona</a><a href="./doações.html#formas">Formas</a><a href="./doações.html#fins">Para que fins</a></div><div><h2>Contato</h2><a href="tel:+5511980485370">+55 11 98048-5370</a><a href="mailto:contatoredeligadobem@gmail.com">contatoredeligadobem@gmail.com</a><a href="https://www.instagram.com/redeligadobem" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://wa.me/5511980485370" target="_blank" rel="noopener noreferrer">WhatsApp</a></div></nav></div><p class="copyright">Copyright © Rede Liga do Bem</p></footer>
 </body>
 </html>
