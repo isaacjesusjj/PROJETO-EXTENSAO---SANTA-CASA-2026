@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Liga do Bem</title>
+    <link rel="stylesheet" href="../CSS/Atividades/global.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../Imagens/LogoBranca.png" alt="Logo Branca" height="90px" width="175px"></a>
+        </div>
+
+        <div class="buttonsH">
+            <a href="../index.html">INICIO</a>
+            <a href="./Instituição.html">INSTITUIÇÃO</a>
+            <a href="./Atividades.html">ATIVIDADES</a>
+            <a href="./doações.html">DOAÇÕES</a>
+        </div>
+
+        <div class="help">
+            <a href="./Faleconosco.html" class="helpB">AJUDE-NOS</a>
+        </div>
+
+         <!-- BOTÃO HAMBURGUER PARA O MOBILE -->
+         <div class="hamburguer" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <!-- Botões do menu hamburguer -->
+        <div class="overlay" id="overlay">
+            <div class="closeButton" id="hamburguer" onclick="fechar()">
+                <div class="bar1" id="bar1"></div>
+                <div class="bar3" id="bar3"></div>
+            </div>
+            <a href="../index.html">INICIO</a>
+            <a href="./Instituição.html">INSTITUIÇÃO</a>
+            <a href="./Atividades.html">ATIVIDADES</a>
+            <a href="./doações.html">DOAÇÕES</a>
+            <a href="./Faleconosco.html">AJUDE-NOS</a>
+        </div>
+
+    </header>
+    <hr>
+    <!--header-->
+
+    
+    <main>
+        <!--banner-->
+       <div class="banner">
+           <img src="../Imagens/bannerFixo.jpg" alt="Banner da Instituição" class="bannerImage" width="100%">
+           <h3 class="titleB">ATIVIDADES</h3>
+       </div>
+        <!--banner-->
+
+        <!--Texto-->
+        <div class="TI">
+        <div class="textoInicial">
+        <h1 class="tituloInicial">Como funciona?</h1>
+        <p class="paragrafoInicial">A Rede Liga do Bem fornece atividades para crianças e adultos, na busca 
+            de garantir que todos, especialmente aqueles que residem em comunidades de baixa renda, possam 
+            desfrutar de oportunidades de lazer e esporte. A organização visa promover a inclusão social, 
+            melhora na saúde física e mental, incentivar o espírito de equipe e desenvolver disciplina, fornecendo 
+            uma alternativa benéfica para passar o tempo livre em um espaço seguro. Composta por instrutores de futebol,
+             voleibol e capoeira, a nossa equipe oferece um funcionamento semanal para todas as atividade.
+         </p>
+        </div>
+       </div>
+
+        <!--Atividades-->
+
+        <div class="tituloA"><p class="tituloAA">Atividades semanais</p></div>
+
+        <div class="Container">
+            <div class="card1">
+                <img src="../Imagens/Futebol.jpg" class="imgAtividades">
+                <h2 class="tituloCard">Aulas de Futebol</h2>
+                <h3 class="subtituloCard">Para crianças</h3>
+                <h4 class="subtituloCard">Segunda à Sexta - 19:00 às 21:00</h4>
+                <p class="textoCard">O futebol aumenta a capacidade cardiorrespiratória, 
+                    fortalece a musculatura da coluna e das pernas, e ainda ajuda a 
+                    desenvolver e diversas habilidades sociais. </p>
+            </div>
+
+            <div class="card2">
+                <img src="../Imagens/Volei.jpg" class="imgAtividades">
+                <h2 class="tituloCard">Aulas de Vôlei</h2>
+                <h3 class="subtituloCard">Para adultos</h3>
+                <h4 class="subtituloCard">Sábado - 19:30</h4>
+                <p class="textoCard">O volei estimula membros físicos superiores e inferiores. 
+                    Ele ajuda a melhorar a cognição, atividade cardiovascular, respiratória,
+                     e a desenvolver a coordenação motora. </p>
+            </div>
+
+            <div class="card3">
+                <img src="../Imagens/Capoeira.jpg" class="imgAtividades">
+                <h2 class="tituloCard">Aulas de Capoeira</h2>
+                <h3 class="subtituloCard">Para crianças</h3>
+                <h4 class="subtituloCard">De segunda e Sexta - 19:00 às 21:00</h4>
+                <p class="textoCard">A capoeira é um esporte e uma arte na qual se movimenta o corpo inteiro.
+                    Ela ajuda a desenvolver flexibilidade, 
+                    estimula o condicionamento cardiovascular e musculoesquelético.</p>
+            </div>
+        </div>
+
+        <!--Atividades-->
+
+    </main>
+        <!--Texto-->
+
+
+    
+        <!--footer-->
+        <hr>
+    <footer>
+        <div class="LogoSpaceF">
+            <a href="../index.html"><img src="../Imagens/LogoVBranca.png" class="Logof"></a>
+        </div>
+        <div class="textF" id="None">
+            <p>A instituição Rede Liga do Bem surgiu através da vontade de criar um espaço seguro, solidário 
+                e sem fins lucrativos. Visando uma vivência e futuro mais ricos para crianças e adultos.</p>
+        </div>
+
+        <div class="buttonsF">
+            <div class="fdiv" id="paginaInicial">
+                <p class="titleF"><a href="../index.html">Inicio</a></p><br>
+            </div>
+
+        <div class="buttonsF">
+            <div class="fdiv">
+                <p class="titleF"><a href="./Instituição.html">Instituição</a></p><br>
+                <p class="othersF">Sobre</p> 
+                <p class="othersF">MVV</p>
+                <p class="othersF">Membros</p>
+            </div>
+            <div class="fdiv">
+                <p class="titleF"><a href="./Atividades.html">Atividades</a></p><br>
+                <p class="othersF">Como funciona</p>
+                <p class="othersF">Horários</p>
+                <p class="othersF">Atividades</p>
+            </div>
+    
+            <div class="fdiv">
+                <p class="titleF"><a href="./doações.html">Doações</a></p><br>
+                <p class="othersF">Como funciona</p>
+                <p class="othersF">Formas</p>
+                <p class="othersF">Para que fins</p>
+            </div>
+    
+            <div class="fdiv" id="None">
+                <p class="titleF">Contato</p><br>
+                <p class="numero">+55 11 98048-5370</p>
+                <p class="contato">contatoredeligado<br>bem@gmail.com</a></p>
+            </div>
+    
+            <div class="fdiv">
+                <p class="titleF">Ajude-nos</p><br>
+                <p class="othersF">Como funciona</p>
+                <p class="othersF">Torne-se um apoiador</p>
+            </div>
+    
+            <div class="fdiv" >
+                <p class="titleF" id="None">Redes sociais</p>
+                
+            <ul class="u">
+             <a href="https://www.instagram.com/redeligadobem?igsh=MXdjbzh2Ng==qYndzZ2t">
+                <li class="l">
+                       <span class="icone"><i class="bi bi-instagram"></i></span>
+                       <span class="texto">redeligadobem</span>
+                </li>
+             </a>
+             <a href="https://wa.me/5511980485370" id="Zap">
+                <li class="l">
+                    <span class="icone"><i class="bi bi-whatsapp"></i></span>
+                    <span class="texto">silvana</span>
+                </li>
+            </a>
+            </ul>
+
+            </div>
+        </div>
+        </div>
+        <div class="copyrightF">
+            <p class="copy">Copyright © - Rede Liga do Bem</p>
+        </div>
+    </footer>
+
+    <script src="../JS/Atividades.js"></script>
+    </body>
+    </html>

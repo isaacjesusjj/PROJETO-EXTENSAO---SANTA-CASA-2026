@@ -1,0 +1,201 @@
+@media (max-width: 760px) {
+   
+    *
+    {
+        align-items: center;
+    }
+
+    /*Header*/
+    header .buttonsH, .help
+    {
+        display: none;
+    }
+
+    header .logo
+    {
+        padding: 0;
+        transform: scale(0.85);
+    }
+
+    header .hamburguer 
+    {
+        display: inline-block;
+        padding: 38px 30px;
+    }
+      
+    .bar1, .bar2, .bar3 
+    {
+        width: 35px;
+        height: 5px;
+        background-color: #ffffff;
+        margin: 6px 0;
+    }
+      
+    .closeButton .bar1 
+    {
+        transform: translate(0, 5px) rotate(-44deg);
+    }
+      
+    .closeButton .bar3 
+    {
+        transform: translate(0, -5px) rotate(45deg);
+    }
+
+    .closeButton
+    {
+        position: absolute;
+        top: 45px;
+        right: 30px;
+    }
+
+    .overlay 
+    {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(242, 92, 4);
+        z-index: 2;
+        padding: 0px 0px 0px; /* Ajuste conforme necessário */
+        box-sizing: border-box;
+        font-family: NexaFont;
+        font-weight: bold;
+    }
+
+    .overlay.active 
+    {
+        display: block; /* Mostra o overlay quando a classe 'active' é adicionada */
+    }
+
+    .overlay a 
+    {
+        display: block;
+        padding: 30px 20px;
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .overlayButtons
+    {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+   
+
+   /*footer*/
+.Logof{
+    display: none;
+}
+.copy
+{
+    font-size: 9px;
+    padding: 0px;
+}
+.copyrightF
+{
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.textF{
+    display: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    height: 160px;
+}
+.fdiv{
+    padding: 0px;
+    height: 20px;
+}
+.titleF{
+    font-size: 14px;
+    width: 100px;
+}
+.othersF{
+    display: none;
+}
+.numero{
+    display: none;
+}
+.contato{
+    display: none;
+}
+.buttonsF
+{
+    margin: auto;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.u{
+    padding-top: 0px;
+}
+#None{
+    display: none;
+}
+
+
+.u .l{
+    width: 20px;
+    height: 20px;
+    border: 1px  rgb(255, 255, 255) solid;
+}
+.u .l:hover{
+    height: 18px;
+    width: 100px;
+}
+.u .l .icone{
+    font-size: 12px;
+    transition: .2s;
+}
+
+.u .l .texto{
+    transform: scale(0);
+    transition: .2s;
+    font-size: 12px;
+}
+#paginaInicial{
+    display: block;
+}
+
+/*FORMULARIO*/
+main .formulario {
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.forms .inputs {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.forms .inputs img {
+    width: 25px;
+}
+
+.forms .inputs input, .forms .inputs textarea {
+    width: calc(100% - 35px);
+    margin-left: 5px;
+}
+
+.forms .inputs label {
+    left: 35px;
+    top: -10px;
+}
+
+main .titulo h1 {
+    font-size: 1.5rem;
+}
+}
